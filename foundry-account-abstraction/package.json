@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "dotenv": "^16.4.5",
+    "ethers": "6",
+    "fs-extra": "^11.2.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5",
+    "zksync-ethers": "^6.8.0"
+  },
+  "scripts": {
+    "encryptKey": "ts-node typescript-scripts/EncryptKey.ts",
+    "deploy": "ts-node typescript-scripts/DeployZkMinimal.ts",
+    "sendTx": "ts-node typescript-scripts/SendAATx.ts",
+    "compile": "forge build --zksync"
+  }
+}
